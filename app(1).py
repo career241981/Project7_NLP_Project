@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Load the model
-model_path = r'C:\Users\zubai\Desktop\Data_Science_Jupyter\project_7(NLP Project for Disaster Tweet Classification)\notebooks\regression_model.pkl'
+model_path = r'C:\Users\DELL\Desktop\Next Hikes Documents\Project7\notebooks1\regression_model.pkl'
 if os.path.exists(model_path):
     try:
         with open(model_path, 'rb') as model_file:
